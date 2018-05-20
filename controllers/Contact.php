@@ -39,7 +39,7 @@ class  Contact  extends CI_Controller
 			$this->data['showform'] = false;
 			$message = xss_clean($this->input->post('message'));
 			$email = $this->input->post('email');
-			$name = $this->input->post('name');
+			$name = xss_clean($this->input->post('name'));
 			$html = $name.' : '.$email .' <br/><br/>'.$message;
 			$subjectLine = "Contact form response from " . $_SERVER['HTTP_HOST'];
 			$res = sendMailApi($this->sendEmailTo, $subjectLine, $html);
