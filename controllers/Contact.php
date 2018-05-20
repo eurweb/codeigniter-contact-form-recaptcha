@@ -37,7 +37,7 @@ class  Contact  extends CI_Controller
 		if ($this->form_validation->run() != FALSE)
         {
 			$this->data['showform'] = false;
-			$message = $this->input->post('message');
+			$message = xss_clean($this->input->post('message'));
 			$email = $this->input->post('email');
 			$name = $this->input->post('name');
 			$html = $name.' : '.$email .' <br/><br/>'.$message;
