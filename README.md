@@ -15,9 +15,13 @@ Basic contact form controller and views (contact form and success message) for C
 Editing the settings:(They should be in a config file, but for a basic part of your site i've included it in controllers/Contact.php)
 
 Important settings:
+
 $sendEmailTo: Where to send the email
+
 //reCAPTCHA  https://www.google.com/recaptcha/admin#site/
-$data_sitekey = 'recaptcha data-sitekey'; 
+
+$data_sitekey = 'recaptcha data-sitekey';
+
 $recaptcha_secret  = 'recaptcha secret';
 
 
