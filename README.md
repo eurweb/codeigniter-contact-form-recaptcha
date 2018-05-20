@@ -16,7 +16,12 @@ Editing the settings:(They should be in a config file, but for a basic part of y
 
 Important settings:
 $sendEmailTo: Where to send the email
+//reCAPTCHA  https://www.google.com/recaptcha/admin#site/
+$data_sitekey = 'recaptcha data-sitekey'; 
+$recaptcha_secret  = 'recaptcha secret';
 
-Just go to site_url("contact") (i.e. http://domain.com/contact   and it should	work out of the box. 
+
+
+Just go to site_url("contact")  http://domain.com/contact   and it should	work out of the box. 
 
 Message me if you have any questions or want help setting it up.
