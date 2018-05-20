@@ -1,5 +1,8 @@
 # Codeigniter 3 Contact Form with reCaptcha
-Codeigniter 3 Contact Form with reCaptcha using Twitter Bootstrap CSS 
+
+Codeigniter 3 Contact Form with reCaptcha using Twitter Bootstrap CSS.
+
+CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP. 
 
 # What Is This CodeIgniter Contact Form?
 
@@ -25,7 +28,6 @@ $data_sitekey = 'recaptcha data-sitekey';
 $recaptcha_secret  = 'recaptcha secret';
 
 
-
-Just go to site_url("contact")  http://domain.com/contact   and it should	work out of the box. 
+Just go to site_url("contact")  yourdomain.com/contact   and it should	work out of the box. 
 
 Message me if you have any questions or want help setting it up.
