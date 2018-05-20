@@ -1,5 +1,5 @@
-# codeigniter-contact-form-recaptcha
-codeigniter contact form with recaptcha
+# Codeigniter 3 Contact Form with reCaptcha
+Codeigniter 3 Contact Form with reCaptcha using Twitter Bootstrap CSS 
 
 # What Is This CodeIgniter Contact Form?
 
